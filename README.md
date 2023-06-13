@@ -6,15 +6,12 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 
 | Default ip | Default user | Default password |
 | --- | --- | --- | 
-| 192.168.233.1 | root | - |
+| 192.168.68.1 | root | - |
 
 ## Main Functions
 
 - ipv6 support
-- zerotier
-- wireguard
 - passwall
-- openclash
 - v2raya
 - uPnP
 - ddns-go
