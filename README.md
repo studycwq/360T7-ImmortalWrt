@@ -2,7 +2,7 @@
 
 Auto build OpenWrt firmware for 360T7 via GitHub Actions
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sagehou/360T7-ImmortalWrt?style=for-the-badge&label=Download)](https://github.com/sagehou/360T7-ImmortalWrt/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/studycwq/360T7-ImmortalWrt?style=for-the-badge&label=Download)](https://github.com/studycwq/360T7-ImmortalWrt/releases/latest)
 
 | Default ip | Default user | Default password |
 | --- | --- | --- | 
