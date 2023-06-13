@@ -12,7 +12,15 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 
 - ipv6 support
 - passwall
-- v2raya
 - uPnP
 - ddns-go
 - wake-on-lan
+- ttyd
+- stastistic
+- nlbwmon
+- autoreboot
+- turboacc
+- ramfree
+- filetransfer
+- mtk
+- theme design
