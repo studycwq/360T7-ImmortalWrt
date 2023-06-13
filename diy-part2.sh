@@ -16,3 +16,6 @@ sed -i 's/OpenWrt/360T7/g' package/base-files/files/bin/config_generate
 
 # 固件版本名称自定义
 sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='ImmortalWrt build on $(date +"%Y%m%d") '/g" package/base-files/files/etc/openwrt_release
+
+# 替换默认主题为 luci-theme-design
+sed -i 's/luci-theme-bootstrap/luci-theme-design/' feeds/luci/collections/luci/Makefile
