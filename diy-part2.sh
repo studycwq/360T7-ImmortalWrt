@@ -16,7 +16,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-design/' feeds/luci/collections/luci/M
 sed -i 's/192.168.[0-9]\{1,3\}.1/192.168.68.1/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
-sed -i 's/ImmortalWrt/360T7/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/OpenWRT/g' package/base-files/files/bin/config_generate
 
 # 修改时区 UTF-8
 sed -i 's/UTC/CST-8/g'  package/base-files/files/bin/config_generate
@@ -50,3 +50,6 @@ MT_WIFI
 # 固件版本名称自定义
 sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='ImmortalWrt build on $(date +"%Y%m%d") '/g" package/base-files/files/etc/openwrt_release
 
+# wifi bin 冲突
+# Package wifi-profile wants to install file /home/zqinking/immortalwrtARM/build_dir/target-aarch64_cortex-a53_musl/root-mediatek/sbin/wifi But that file is already provided by package * base-files
+# rm -f package/base-files/files/sbin/wifi
