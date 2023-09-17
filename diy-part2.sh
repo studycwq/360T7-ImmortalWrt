@@ -43,9 +43,9 @@ MT_WIFI(){
   mv mt_wifi package/mtk/drivers/mt_wifi
 }
 
-MTK_HNAT
-echo '-------------------------------------------------------------------------------------------------'
-MT_WIFI
+#MTK_HNAT
+#echo '-------------------------------------------------------------------------------------------------'
+#MT_WIFI
 
 # 固件版本名称自定义
 sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='ImmortalWrt build on $(date +"%Y%m%d") '/g" package/base-files/files/etc/openwrt_release
