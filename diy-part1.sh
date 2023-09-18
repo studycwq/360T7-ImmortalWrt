@@ -21,4 +21,6 @@
 
 # 添加 luci-theme-design 主题
 git clone -b js https://github.com/gngpp/luci-theme-design.git package/luci-theme-design
+# change design nav clash to ssrp
+sed -i 's/services\/openclash/services\/shadowsocksr/g; s/images\/openclash/images\/ssr/g' package/luci-theme-design/luasrc/view/themes/design/header.htm
 #git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
